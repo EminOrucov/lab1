@@ -1,0 +1,22 @@
+{
+  "name": "lab1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --testPathPattern=\"test.js\"",
+    "format": "prettier --write '**/*.js'"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "lab1": "file:"
+  }
+}
